@@ -1,0 +1,11 @@
+.bf-Home {
+  padding-top: 2rem;
+
+  &-usersHeaders {
+    display: flex;
+
+    & > div {
+      flex: 1;
+    }
+  }
+}

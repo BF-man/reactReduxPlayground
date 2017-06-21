@@ -1,0 +1,17 @@
+/**
+ * Theme.
+ */
+
+:root {
+
+  /* colors */
+  --green:                           #26fca7;
+  --red:                             red;
+  --white:                           #fff;
+}
+
+@custom-media --large (min-width: 1030px);
+@custom-media --before-medium (max-width: 992px);
+@custom-media --before-small (max-width: 768px);
+@custom-media --small (max-width: 629px);
+@custom-media --landscape (max-height: 600px);
